@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Review</title>
+    <style>
+        img{
+            width: 20%;
+        }
+        fieldset{
+            width: 50%;
+            
+        }
+
+    </style>
+</head>
+<body>
+
+    <fieldset>
+        <legend>Your Review</legend>
+
+        <label for="suggestion">How do you Hear About us?</label>
+        <select id="Suggestion">
+            <option value="Friend">Friend</option>
+            <option value="Family Member">Family Member</option>
+            <option selected value="Select your option">Select your option</option>
+            <option value="None">None</option>
+        </select><br><br>
+
+        <label>Would you visit again?</label>
+        <input checked type="radio" id="Yes" name="Review">
+        <label for="Yes">Yes</label>
+        <input type="radio" id="No" name="Review">
+        <label for="No">No</label>
+        <input type="radio" id="Maybe" name="Review">
+        <label for="Maybe">Maybe</label> <br><br>
+
+        <label for="description">Comments</label><br>
+            <textarea  id="description" cols="30" rows="5"></textarea><br><br>
+            <label for="pic">Document</label>
+            <input type="file" id="pic"> <br><br>
+
+            <input type="checkbox" id="Checked">
+            <label for="Sign me up for email updates">Sign me up for email updates</label><br><br>
+
+            <a href="../step-02/step02.html"><img src="../Images/back.png" alt="Back-button"></a>
+            <img src="../Images/submit.png" alt="Next-button">
+
+
+        </fieldset>
+</body>
+</html>
